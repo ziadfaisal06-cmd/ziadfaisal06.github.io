@@ -32,12 +32,12 @@ body {
 
     display: flex;
     text-align: center;
+    position: sticky;
     justify-content: center ;
     text-decoration: none;
     list-style-type:none;
     background-color:#031f47;
     font-size: 22px;
-    position: sticky;
     top: 60px; 
     z-index: 999;
   
@@ -46,13 +46,14 @@ body {
     
     display: block;
     text-align: center;
+    position: sticky;
     color:aliceblue;
     justify-content: center ;
     padding: 14px 20px;
     font-size:25px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-decoration: none;
-    position: sticky;
+    
 }
 
 .navbar li a:hover{
